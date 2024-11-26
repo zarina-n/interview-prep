@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^9.1.7",
     "markdownlint-cli": "^0.43.0",
     "prettier": "^3.4.1"
   }
