@@ -1,0 +1,19 @@
+{
+  "name": "interview-prep",
+  "version": "1.0.0",
+  "description": "Most common questions and answers for Frontend Technical Interview",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{json,md}'",
+    "lint": "markdownlint **/*.md  --ignore node_modules/**",
+    "lint:fix": "markdownlint **/*.md --fix --ignore node_modules/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "markdownlint-cli": "^0.43.0",
+    "prettier": "^3.4.1"
+  }
+}
