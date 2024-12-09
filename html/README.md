@@ -149,23 +149,23 @@ displayed on the page and might have the following elements:
 - `<script>` is used to define JS withing the HTML page or to connect external
   JS file
 
-  ## What are semantic elements?
+## What are semantic elements?
 
-  Semantic elements tel about the type of the content to the browser and the
-  developer.
+Semantic elements tel about the type of the content to the browser and the
+developer.
 
-  - **`article`** contains independent content which does not require any other
-    context
-  - **`section`** separates sections of the content, might contain a subheading
-  - **`header`** is used for the header of the section or a page
-  - **`main`** defined the main content of the page
-  - **`footer`** contains contact information, copyright information, etc.
-  - **`nav`** defines navigation links in the form of nav abr or nav menu
-  - **`aside`** places content in the sidebar - aside from the main content
-  - **`details`** is used for displaying additional details that user can hide
-    or view
-  - **`figure and captions`** is used to add an image with a small description
-  - **`mark`** is used to highlight the text
+- **`article`** contains independent content which does not require any other
+  context
+- **`section`** separates sections of the content, might contain a subheading
+- **`header`** is used for the header of the section or a page
+- **`main`** defined the main content of the page
+- **`footer`** contains contact information, copyright information, etc.
+- **`nav`** defines navigation links in the form of nav abr or nav menu
+- **`aside`** places content in the sidebar - aside from the main content
+- **`details`** is used for displaying additional details that user can hide or
+  view
+- **`figure and captions`** is used to add an image with a small description
+- **`mark`** is used to highlight the text
 
 ## What are HTML entities?
 
@@ -274,19 +274,19 @@ languages, we should use `<link>` tags with the `rel="alternate"` and
 
 1. Search Engine Optimization
 
-- should use `lang` attribute on the `html` tag
-- include the locale in the URL (en_US)
-- should use `<link>` tags with the `rel="alternate"` and `hreflang="..."`
-- use a fallback page for unmatched languages -
-  `<link rel="alternate" hreflang="x-default" href="http://fallback-page.html" />`
+   - should use `lang` attribute on the `html` tag
+   - include the locale in the URL (en_US)
+   - should use `<link>` tags with the `rel="alternate"` and `hreflang="..."`
+   - use a fallback page for unmatched languages -
+     `<link rel="alternate" hreflang="x-default" href="http://fallback-page.html" />`
 
 2. Understanding difference between locale and language - locale setting control
    how numbers, dates and times are displayed for the region.
 
 3. Understanding language differences within a country ot countries:
 
-- en - en_US, en_GB
-- zh - zh_CH (Chinese simplified), zh_TW(Chinese traditional)
+   - en - en_US, en_GB
+   - zh - zh_CH (Chinese simplified), zh_TW(Chinese traditional)
 
 4. Consider difference in the length of the text in different languages
 
@@ -336,23 +336,23 @@ other purposes.
 - ideal for storing non-sensitive data that needs to persist across sessions,
   like user preference. E.g. `localStorage.setItem('theme', 'dark');`
 
-  **`Session Storage`**:
+**`Session Storage`**:
 
-  - data is stored for the duration opf the page session.Is cleared when the tab
-    or window is closed.
-  - Similar to local storage, about 5MB.
-  - data is only accessible within the same window or tab.
-  - suitable for data that should be on;y retained during a single session, like
-    data for multi-step form.
+- data is stored for the duration opf the page session.Is cleared when the tab
+  or window is closed.
+- Similar to local storage, about 5MB.
+- data is only accessible within the same window or tab.
+- suitable for data that should be on;y retained during a single session, like
+  data for multi-step form.
 
-    **`Cookies`**:
+**`Cookies`**:
 
-    - can be set to expire at a specific date or after a certain amount of time.
-      Persists across the browser sessions until expires.
-    - is limited to 4kb per cookie. sent with every HTTP request tot he server,
-      making them suitable for server-side reading.
-    - is used for session management, personalization, and tracking. Crucial for
-      authentication purposes.
+- can be set to expire at a specific date or after a certain amount of time.
+  Persists across the browser sessions until expires.
+- is limited to 4kb per cookie. sent with every HTTP request tot he server,
+  making them suitable for server-side reading.
+- is used for session management, personalization, and tracking. Crucial for
+  authentication purposes.
 
 ## What is the difference between `<script>`, `<script async>` and `<script defer>`?
 
