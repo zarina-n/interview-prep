@@ -1,5 +1,83 @@
 # HTML Questions
 
+## [What is HTML?](#what-is-html)
+
+## [Difference between HTML and XHTML](#difference-between-html-and-xhtml)
+
+## [What are the various markup languages available?](#what-are-the-various-markup-languages-available)
+
+## [What is the difference between HTML and HTML5?](#what-is-the-difference-between-html-and-html5)
+
+## [What is !DOCTYPE?](#what-is-doctype)
+
+## [What are the elements and tags, and what are the differences between them?](#what-are-the-elements-and-tags-and-what-are-the-differences-between-them)
+
+## [What are the various heading tags and their importance?](#what-are-the-various-heading-tags-and-their-importance)
+
+## [How to redirect to a particular section of a page using HTML?](#how-to-redirect-to-a-particular-section-of-a-page-using-html)
+
+## [What are attributes?](#what-are-attributes)
+
+## [Are `<b>` and `<strong>`,`<i>` and `<em>` tags the same? If not, then why?](#are-b-and-strong-i-and-em-tags-the-same-if-not-then-why)
+
+## [What is the use of the target attribute in the `<link>` tag?](#what-is-the-use-of-the-target-attribute-in-the-link-tag)
+
+## [What are the HTML tags used to display a table?](#what-are-the-html-tags-used-to-display-a-table)
+
+## [What is the difference between block and inline elements?](#what-is-the-difference-between-block-and-inline-elements)
+
+## [What is the difference between classes and id?](#what-is-the-difference-between-classes-and-id)
+
+## [What are the tags that can be used inside the `<head>` tag?](#what-are-the-tags-that-can-be-used-inside-the-head-tag)
+
+## [What are semantic elements?](#what-are-semantic-elements)
+
+## [What are HTML entities?](#what-are-html-entities)
+
+## [What is HTML encoding?](#what-is-html-encoding)
+
+## [What is the difference between POST and GET methods?](#what-is-the-difference-between-post-and-get-methods)
+
+## [What is HTML canvas?](#what-is-html-canvas)
+
+## [What is an SVG?](#what-is-an-svg)
+
+## [How can we allow the browser to tell the location using HTML Geolocation API?](#how-can-we-allow-the-browser-to-tell-the-location-using-html-geolocation-api)
+
+## [What is HTML Web Storage API?](#what-is-html-web-storage-api)
+
+## [What are forms in HTML?](#what-are-forms-in-html)
+
+## [What are void elements?](#what-are-void-elements)
+
+## [How Container tag is different from an Empty tag?](#how-container-tag-is-different-from-an-empty-tag)
+
+## [What tags are used to separate a section of a text?](#what-tags-are-used-to-separate-a-section-of-a-text)
+
+## [What are logical and physical tags?](#what-are-logical-and-physical-tags)
+
+## [How do you serve a page with content in multiple languages?](#how-do-you-serve-a-page-with-content-in-multiple-languages)
+
+## [What kind of things to be wary when developing multilingual sites?](#what-kind-of-things-to-be-wary-when-developing-multilingual-sites)
+
+## [What are `data-` attributes are good for?](#what-are-data-attributes-are-good-for)
+
+## [What are building blocks of HTML5?](#what-are-building-blocks-of-html5)
+
+## [What is the difference between cookie, session storage and local storage?](#what-is-the-difference-between-cookie-session-storage-and-local-storage)
+
+## [What is the difference between `<script>`, `<script async>` and `<script defer>`?](#what-is-the-difference-between-script-script-async-and-script-defer)
+
+## [What is progressive rendering?](#what-is-progressive-rendering)
+
+## [How progressive rendering is different from SSR and CSR?](#how-progressive-rendering-is-different-from-ssr-and-csr)
+
+## [Why would you use `srcset` attribute in an image tag?](#why-would-you-use-srcset-attribute-in-an-image-tag)
+
+## [Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before)
+
+## [What is the difference between `canvas` and `svg`?](#what-is-the-difference-between-canvas-and-svg)
+
 ## What is HTML?
 
 HTML stand for HyperText Markup Language. Hypertext defined the link between web
@@ -37,22 +115,22 @@ Most important differences from HTML:
 - XML: Extensible Markup Language (does not do anything, is it information that
   is wrapped in tags, does not use predefined tags like HTML)
 
-  ## What is the difference between HTML and HTML5
+## What is the difference between HTML and HTML5?
 
-* HTML supports audio and video controls with the use of `<audio`> and `<video>`
+- HTML supports audio and video controls with the use of `<audio`> and `<video>`
   tags, no need for Flash player support anymore
-* Uses SQL databases and applications cache to store offline data instead of
+- Uses SQL databases and applications cache to store offline data instead of
   cookies
-* Allows JavaScript to run in the background (is possible due to JS Web worker
+- Allows JavaScript to run in the background (is possible due to JS Web worker
   API in HTML5)
-* Vector graphics is additionally an integral part of HTML5 like SVG and canvas
+- Vector graphics is additionally an integral part of HTML5 like SVG and canvas
   (no need for extra technologies)
-* Allow drag-and-drop effects and support target blank attribute
-* More mobile friendly
-* The doctype declaration is more simple and shorter
-* Has new elements for web page structure like nav, header, footer, etc.
-* Is capable of handling inaccurate syntax
-* Contains attributes like charset, async and ping
+- Allow drag-and-drop effects and support target blank attribute
+- More mobile friendly
+- The doctype declaration is more simple and shorter
+- Has new elements for web page structure like nav, header, footer, etc.
+- Is capable of handling inaccurate syntax
+- Contains attributes like charset, async and ping
 
 ## What is !DOCTYPE?
 
@@ -88,12 +166,12 @@ Anchor tag can be used for this purpose. We need to add "id" attribute to an
 element we need to be redirected to and use the same id in href attribute with
 "#" in the anchor tag.
 
-# What are attributes?
+## What are attributes?
 
 Attribute is used to provide extra or additional information about the element.
 It consists of two parts - name and the value.
 
-## Are `<b`> and `<strong>`,`<i>` and `<em>` tags the same? If not, then why?
+## Are `<b>` and `<strong>`,`<i>` and `<em>` tags the same? If not, then why?
 
 The main difference between those 2 tags are that `<strong>`, `<em>` tag had
 semantic value while `<b>`/ `<i>` tag is just offset text conventionally styles
@@ -204,7 +282,7 @@ Advantages of using SVG:
 - are scalable
 - can be printed with hight quality in any resolution
 
-## How can we allow the browser to tll the location using HTML Geolocation API?
+## How can we allow the browser to tell the location using HTML Geolocation API?
 
 It uses JavaScript to give the latitude and longitude to the backend server. It
 can be created as follows
@@ -223,7 +301,7 @@ SessionStorage and LocalStorage are known as the web storage API.
   automatically erased when it is closed, while data in LocalStorage exists
   until user manually erases it.
 
-## What are form in HTML ?
+## What are forms in HTML?
 
 HTML Form is a document that stores information of a user on a wev server using
 interactive controls. It contains different kinds of information like username,
