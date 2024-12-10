@@ -1,82 +1,82 @@
 # HTML Questions
 
-## [What is HTML?](#what-is-html)
+- [What is HTML?](#what-is-html)
 
-## [Difference between HTML and XHTML](#difference-between-html-and-xhtml)
+- [Difference between HTML and XHTML](#difference-between-html-and-xhtml)
 
-## [What are the various markup languages available?](#what-are-the-various-markup-languages-available)
+- [What are the various markup languages available?](#what-are-the-various-markup-languages-available)
 
-## [What is the difference between HTML and HTML5?](#what-is-the-difference-between-html-and-html5)
+- [What is the difference between HTML and HTML5?](#what-is-the-difference-between-html-and-html5)
 
-## [What is !DOCTYPE?](#what-is-doctype)
+- [What is !DOCTYPE?](#what-is-doctype)
 
-## [What are the elements and tags, and what are the differences between them?](#what-are-the-elements-and-tags-and-what-are-the-differences-between-them)
+- [What are the elements and tags, and what are the differences between them?](#what-are-the-elements-and-tags-and-what-are-the-differences-between-them)
 
-## [What are the various heading tags and their importance?](#what-are-the-various-heading-tags-and-their-importance)
+- [What are the various heading tags and their importance?](#what-are-the-various-heading-tags-and-their-importance)
 
-## [How to redirect to a particular section of a page using HTML?](#how-to-redirect-to-a-particular-section-of-a-page-using-html)
+* [How to redirect to a particular section of a page using HTML?](#how-to-redirect-to-a-particular-section-of-a-page-using-html)
 
-## [What are attributes?](#what-are-attributes)
+* [What are attributes?](#what-are-attributes)
 
-## [Are `<b>` and `<strong>`,`<i>` and `<em>` tags the same? If not, then why?](#are-b-and-strong-i-and-em-tags-the-same-if-not-then-why)
+* [Are `<b>` and `<strong>`,`<i>` and `<em>` tags the same? If not, then why?](#are-b-and-strong-i-and-em-tags-the-same-if-not-then-why)
 
-## [What is the use of the target attribute in the `<link>` tag?](#what-is-the-use-of-the-target-attribute-in-the-link-tag)
+* [What is the use of the target attribute in the `<link>` tag?](#what-is-the-use-of-the-target-attribute-in-the-link-tag)
 
-## [What are the HTML tags used to display a table?](#what-are-the-html-tags-used-to-display-a-table)
+* [What are the HTML tags used to display a table?](#what-are-the-html-tags-used-to-display-a-table)
 
-## [What is the difference between block and inline elements?](#what-is-the-difference-between-block-and-inline-elements)
+* [What is the difference between block and inline elements?](#what-is-the-difference-between-block-and-inline-elements)
 
-## [What is the difference between classes and id?](#what-is-the-difference-between-classes-and-id)
+* [What is the difference between classes and id?](#what-is-the-difference-between-classes-and-id)
 
-## [What are the tags that can be used inside the `<head>` tag?](#what-are-the-tags-that-can-be-used-inside-the-head-tag)
+* [What are the tags that can be used inside the `<head>` tag?](#what-are-the-tags-that-can-be-used-inside-the-head-tag)
 
-## [What are semantic elements?](#what-are-semantic-elements)
+* [What are semantic elements?](#what-are-semantic-elements)
 
-## [What are HTML entities?](#what-are-html-entities)
+* [What are HTML entities?](#what-are-html-entities)
 
-## [What is HTML encoding?](#what-is-html-encoding)
+* [What is HTML encoding?](#what-is-html-encoding)
 
-## [What is the difference between POST and GET methods?](#what-is-the-difference-between-post-and-get-methods)
+* [What is the difference between POST and GET methods?](#what-is-the-difference-between-post-and-get-methods)
 
-## [What is HTML canvas?](#what-is-html-canvas)
+* [What is HTML canvas?](#what-is-html-canvas)
 
-## [What is an SVG?](#what-is-an-svg)
+* [What is an SVG?](#what-is-an-svg)
 
-## [How can we allow the browser to tell the location using HTML Geolocation API?](#how-can-we-allow-the-browser-to-tell-the-location-using-html-geolocation-api)
+* [How can we allow the browser to tell the location using HTML Geolocation API?](#how-can-we-allow-the-browser-to-tell-the-location-using-html-geolocation-api)
 
-## [What is HTML Web Storage API?](#what-is-html-web-storage-api)
+* [What is HTML Web Storage API?](#what-is-html-web-storage-api)
 
-## [What are forms in HTML?](#what-are-forms-in-html)
+* [What are forms in HTML?](#what-are-forms-in-html)
 
-## [What are void elements?](#what-are-void-elements)
+* [What are void elements?](#what-are-void-elements)
 
-## [How Container tag is different from an Empty tag?](#how-container-tag-is-different-from-an-empty-tag)
+* [How Container tag is different from an Empty tag?](#how-container-tag-is-different-from-an-empty-tag)
 
-## [What tags are used to separate a section of a text?](#what-tags-are-used-to-separate-a-section-of-a-text)
+* [What tags are used to separate a section of a text?](#what-tags-are-used-to-separate-a-section-of-a-text)
 
-## [What are logical and physical tags?](#what-are-logical-and-physical-tags)
+* [What are logical and physical tags?](#what-are-logical-and-physical-tags)
 
-## [How do you serve a page with content in multiple languages?](#how-do-you-serve-a-page-with-content-in-multiple-languages)
+* [How do you serve a page with content in multiple languages?](#how-do-you-serve-a-page-with-content-in-multiple-languages)
 
-## [What kind of things to be wary when developing multilingual sites?](#what-kind-of-things-to-be-wary-when-developing-multilingual-sites)
+* [What kind of things to be wary when developing multilingual sites?](#what-kind-of-things-to-be-wary-when-developing-multilingual-sites)
 
-## [What are `data-` attributes are good for?](#what-are-data-attributes-are-good-for)
+* [What are `data-` attributes are good for?](#what-are-data-attributes-are-good-for)
 
-## [What are building blocks of HTML5?](#what-are-building-blocks-of-html5)
+* [What are building blocks of HTML5?](#what-are-building-blocks-of-html5)
 
-## [What is the difference between cookie, session storage and local storage?](#what-is-the-difference-between-cookie-session-storage-and-local-storage)
+* [What is the difference between cookie, session storage and local storage?](#what-is-the-difference-between-cookie-session-storage-and-local-storage)
 
-## [What is the difference between `<script>`, `<script async>` and `<script defer>`?](#what-is-the-difference-between-script-script-async-and-script-defer)
+* [What is the difference between `<script>`, `<script async>` and `<script defer>`?](#what-is-the-difference-between-script-script-async-and-script-defer)
 
-## [What is progressive rendering?](#what-is-progressive-rendering)
+* [What is progressive rendering?](#what-is-progressive-rendering)
 
-## [How progressive rendering is different from SSR and CSR?](#how-progressive-rendering-is-different-from-ssr-and-csr)
+* [How progressive rendering is different from SSR and CSR?](#how-progressive-rendering-is-different-from-ssr-and-csr)
 
-## [Why would you use `srcset` attribute in an image tag?](#why-would-you-use-srcset-attribute-in-an-image-tag)
+* [Why would you use `srcset` attribute in an image tag?](#why-would-you-use-srcset-attribute-in-an-image-tag)
 
-## [Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before)
+* [Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before)
 
-## [What is the difference between `canvas` and `svg`?](#what-is-the-difference-between-canvas-and-svg)
+* [What is the difference between `canvas` and `svg`?](#what-is-the-difference-between-canvas-and-svg)
 
 ## What is HTML?
 
